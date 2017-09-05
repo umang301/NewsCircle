@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_resource"
+    tools:context="com.protoplus.newscircle.SplashActivity">
+
+    <!--<ImageView
+        android:id="@+id/ring1"
+        android:layout_width="@dimen/dp250"
+        android:layout_height="@dimen/dp250"
+        android:src="@drawable/large_circle"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+         />
+
+    <ImageView
+        android:id="@+id/ring2"
+        android:src="@drawable/medium_circle"
+        android:layout_width="@dimen/dp175"
+        android:layout_height="@dimen/dp175"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+         />
+
+    <ImageView
+        android:id="@+id/ring3"
+        android:src="@drawable/small_circle"
+        android:layout_width="@dimen/dp105"
+        android:layout_height="@dimen/dp105"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+         />
+
+    <TextView
+        android:id="@+id/splash_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ring1"
+        android:text="NewsCircle"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/dp56" />-->
+
+</RelativeLayout>

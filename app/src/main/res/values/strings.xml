@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">NewsCircle</string>
+    <string name="search_hint">search</string>
+    <string name="no_search_result_str">No search result found</string>
+    <string name="LatoBlack">LatoBlack</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="about_us_txt"> NewsCircle provides latest news. Stay updated with breaking news, current events and daily news headlines on politics, business, technology, bollywood, sports, live cricket score and more for India and World.
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="action_notification">Notification</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="share">Share</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6658314028492546/7827772115</string>
+    <!--<string name="nav_item_headline">headline</string>
+    <string name="nav_item_world">world</string>
+    <string name="nav_item_local">local and states</string>
+    <string name="nav_item_national">National</string>
+    <string name="nav_item_entertainment">Entertainment</string>
+    <string name="nav_item_business">Business</string>
+    <string name="nav_item_sports">Sports</string>
+    <string name="nav_item_science">Science and Technology</string>
+    <string name="nav_item_LifeStyle">LifeStyle and Health</string>
+    <string name="nav_item_Education">Education</string>-->
+    <string name="nav_item_news_topics">News Topics</string>
+    <string name="nav_item_fevorite_news">Fevorite News</string>
+    <string name="nav_item_notification">Notification</string>
+    <string name="nav_item_manage">MANAGE</string>
+    <string name="nav_item_rate_us">Rate us</string>
+    <string name="nav_item_share_us">Share us</string>
+    <string name="nav_item_about_us">About us</string>
+    <!-- navigation drawer item labels  -->
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_news_topics</item>
+        <item>@string/nav_item_fevorite_news</item>
+        <item>@string/nav_item_notification</item>
+        <item>@string/nav_item_manage</item>
+        <item>@string/nav_item_rate_us</item>
+        <item>@string/nav_item_share_us</item>
+        <item>@string/nav_item_about_us</item>
+    </string-array>
+    <integer-array name="nav_drawer_icons">
+        <item>@drawable/headline</item>
+        <item>@drawable/world</item>
+        <item>@drawable/local</item>
+    </integer-array>
+    <integer-array name="category_array">
+        <item>@drawable/ie</item>
+        <item>@drawable/india_today</item>
+        <item>@drawable/oneindia_small</item>
+        <item>@drawable/indiatv</item>
+        <item>@drawable/outlook_india</item>
+        <item>@drawable/ibnlive</item>
+        <item>@drawable/dh</item>
+        <item>@drawable/toi</item>
+        <item>@drawable/ht</item>
+        <item>@drawable/the_statesman</item>
+    </integer-array>
+    <string name="title_messages">Local and states</string>
+    <string name="title_World">World</string>
+    <string name="title_home">Home</string>
+    <string name="title_activity_splash">NewsCircle</string>
+    <string name="title_activity_data_list">DataList</string>
+    <string name="title_activity_main_content">MainContent</string>
+    <string name="title_activity_show_content_page">ShowContentPage</string>
+    <string name="title_activity_ieworld_news">IEWorldNews</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_handle_error_page">HandleErrorPage</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="error_button">Retry</string>
+    <string name="error_massage">No Internet Connection found , Please try again</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_search_result">SearchResultActivity</string>
+</resources>

@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape"
+     >
+    <!--android:background="@drawable/round_border_half_transaparent"-->
+    <com.protoplus.newscircle.Util.CircularProgressBar
+        android:id="@+id/progressbar1"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="@dimen/progressbar_width"
+        android:layout_height="@dimen/progressbar_height"
+        android:indeterminate="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        app:cpb_color="#FFee44"
+        app:cpb_rotation_speed="1.0"
+        app:cpb_sweep_speed="1.0"
+        app:cpb_stroke_width="4dp"
+        app:cpb_min_sweep_angle="10"
+        app:cpb_max_sweep_angle="300"
+        app:cpb_colors="@array/gplus_colors"
+        android:layout_margin="@dimen/dp20"
+        ></com.protoplus.newscircle.Util.CircularProgressBar>
+
+
+</RelativeLayout>

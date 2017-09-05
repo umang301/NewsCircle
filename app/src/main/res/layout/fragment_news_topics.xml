@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+    <com.protoplus.newscircle.Util.CircularProgressBar
+        android:id="@+id/newstopicscenterLoader"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:visibility="invisible"
+        android:layout_width="@dimen/progressbar_width"
+        android:layout_height="@dimen/progressbar_height"
+        android:indeterminate="true"
+        android:layout_centerInParent="true"
+        app:cpb_color="#FFee44"
+        app:cpb_rotation_speed="1.0"
+        app:cpb_sweep_speed="1.0"
+        app:cpb_stroke_width="@dimen/dp4"
+        app:cpb_min_sweep_angle="10"
+        app:cpb_max_sweep_angle="300"
+        app:cpb_colors="@array/gplus_colors"
+        ></com.protoplus.newscircle.Util.CircularProgressBar>
+    <com.protoplus.newscircle.Util.SlidingTabLayout
+        android:id="@+id/tabs1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:elevation="@dimen/dp2"
+        />
+    <!--android:background="@android:color/white"-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager1"
+        android:layout_below="@+id/tabs1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>

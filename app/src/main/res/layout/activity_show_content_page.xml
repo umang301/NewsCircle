@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=" newscircle.protoplus.com.newscircle.newscircle.ShowContentPage">
+    >
+
+    <ScrollView
+        android:layout_above="@+id/webadLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <WebView
+            android:id="@+id/mainWebContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+    <com.appodeal.ads.BannerView
+        android:id="@+id/webadLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        >
+        <!--ads:adUnitId="@string/banner_ad_unit_id"-->
+    </com.appodeal.ads.BannerView>
+</RelativeLayout>
+
+

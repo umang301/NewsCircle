@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.protoplus.newscircle.newscircle.SearchResultActivity"
+    >
+    <include android:id="@+id/search_toolbar"
+        layout="@layout/toolbar"
+        ></include>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_result_list"
+        ></ListView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/no_search_txt"
+        android:visibility="gone"
+        >
+        <com.protoplus.newscircle.Util.AppText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:text="@string/no_search_result_str"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AudienceNetwork/AudienceNetwork.iml" filepath="$PROJECT_DIR$/AudienceNetwork/AudienceNetwork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewsCircle.iml" filepath="$PROJECT_DIR$/NewsCircle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admobadapter/admobadapter.iml" filepath="$PROJECT_DIR$/admobadapter/admobadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/applovin-6.1.4/applovin-6.1.4.iml" filepath="$PROJECT_DIR$/applovin-6.1.4/applovin-6.1.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appodeal-1.13.7/appodeal-1.13.7.iml" filepath="$PROJECT_DIR$/appodeal-1.13.7/appodeal-1.13.7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chartboost-5.5.3/chartboost-5.5.3.iml" filepath="$PROJECT_DIR$/chartboost-5.5.3/chartboost-5.5.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inmobi-5.0.1/inmobi-5.0.1.iml" filepath="$PROJECT_DIR$/inmobi-5.0.1/inmobi-5.0.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsoup-1.8.3/jsoup-1.8.3.iml" filepath="$PROJECT_DIR$/jsoup-1.8.3/jsoup-1.8.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-target-4.1.1/my-target-4.1.1.iml" filepath="$PROJECT_DIR$/my-target-4.1.1/my-target-4.1.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tagsoup/tagsoup.iml" filepath="$PROJECT_DIR$/tagsoup/tagsoup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unity-ads-1.4.7/unity-ads-1.4.7.iml" filepath="$PROJECT_DIR$/unity-ads-1.4.7/unity-ads-1.4.7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yandex-metrica-android-2.00/yandex-metrica-android-2.00.iml" filepath="$PROJECT_DIR$/yandex-metrica-android-2.00/yandex-metrica-android-2.00.iml" />
+    </modules>
+  </component>
+</project>

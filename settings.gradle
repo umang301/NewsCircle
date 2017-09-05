@@ -1,0 +1,1 @@
+include ':app', ':applovin-6.1.4', ':appodeal-1.13.7', ':chartboost-5.5.3', ':inmobi-5.0.1', ':my-target-4.1.1', ':unity-ads-1.4.7', ':yandex-metrica-android-2.00', ':AudienceNetwork', ':jsoup-1.8.3', ':tagsoup', ':admobadapter'

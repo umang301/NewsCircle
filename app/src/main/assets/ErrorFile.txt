@@ -1,0 +1,44 @@
+
+doubtfull sites
+local and states - times of india - mumbai
+                 - Deccan Herald
+
+Hide ad area when ad is not loaded
+
+
+============================================
+- In Notification bar reduce notification text size
+
+- change background color of small icon
+
+- try to change icon from black and white to color
+
+- search for search functionality
+
+14/12/ task
+
+2 ) notification pull down icon should be changed
+=======================================================
+
+
+check InterStitial ad in splash screen☺☻
+
+run app in xolo
+
+put default image in Headline
+
+
+1 ) sorround refreshLayout with try catch
+
+2 ) Indian Express put condition for null context
+
+3 ) Put Error massage layout in OneIndiaNewsFragment
+
+Do changes as IndianExpressNewsFragment----- outlookindia thi baki che
+
+if(!Helper.getisBack()){
+                    swipeLayout.setRefreshing(false);
+                }
+ the above line will give exception if the code will be call unconditionally .
+
+ i have to change place of variable Helper.fromreciver or Helper.isAppOpen

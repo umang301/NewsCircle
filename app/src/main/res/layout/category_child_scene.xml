@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="@dimen/dp10"
+    android:paddingBottom="@dimen/dp10"
+    >
+    <!--android:descendantFocusability="blocksDescendants"-->
+    <ImageView
+        android:id="@+id/navigate"
+        android:layout_width="@dimen/dp15"
+        android:layout_height="@dimen/dp15"
+        android:src="@drawable/arrow"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        />
+    <Button
+        android:id="@+id/fav_unfav_btn"
+        android:layout_toLeftOf="@+id/navigate"
+        android:layout_width="@dimen/dp28"
+        android:layout_height="@dimen/dp28"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/dp8"
+        />
+    <ImageView
+        android:layout_height="@dimen/dp45"
+        android:layout_width="@dimen/dp45"
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_centerVertical="true"
+        android:id="@+id/category_icon"
+        />
+    <com.protoplus.newscircle.Util.AppText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/dp14"
+        android:layout_marginLeft="@dimen/dp40"
+        android:layout_toRightOf="@+id/category_icon"
+        android:layout_centerVertical="true"
+        android:id="@+id/category"
+        />
+
+</RelativeLayout>
